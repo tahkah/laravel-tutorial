@@ -24,14 +24,4 @@ RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
 RUN npm install -g npm@latest
 
-COPY ./config/php/php.ini /usr/local/etc/php/php.ini
-
-ARG PUID=1000
-ENV PUID ${PUID}
-ARG PGID=1000
-ARG PGID ${PGID}
-
-RUN groupmod -o -g ${PGID} www-data && \
-usermod -o -u ${PUID} -g www-data www-data
-
 WORKDIR /var/www/html
