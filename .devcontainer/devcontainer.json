@@ -23,7 +23,8 @@
 		"felixfbecker.php-intellisense",
 		"onecentlin.laravel-blade",
 		"jcbuisson.vue",
-		"hollowtree.vue-snippets"
+		"hollowtree.vue-snippets",
+		"mhutchie.git-graph",
 	],
 
 	// Uncomment the next line if you want to keep your containers running after VS Code shuts down.
