@@ -1,6 +1,8 @@
 <html>
-    <header>Laravel</header>
-    <body>
-        <h1>Hello world!</h1>
-    </body>
+    <header>
+        Laravel
+    </header>
+ <body>
+       <a href="{{ url('/posts') }}"> 投稿一覧</a>
+　</body>
 </html>
