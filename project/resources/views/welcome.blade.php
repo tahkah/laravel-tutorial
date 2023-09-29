@@ -1,6 +1,12 @@
+<!DOCTYPE html>
+
 <html>
-    <header>Laravel</header>
-    <body>
-        <h1>Hello world!</h1>
-    </body>
-</html>
+
+  @include('head')
+
+ <body> 
+  @include('header')
+  <a href="{{ url('/posts') }}"> 投稿一覧</a>    
+ </body>
+
+</html
