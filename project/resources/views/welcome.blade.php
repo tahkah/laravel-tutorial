@@ -1,12 +1,14 @@
 <!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>laravelチュートリアル</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-<html>
+@extends('layouts/app')
 
-  @include('head')
-
- <body> 
-  @include('header')
-  <a href="{{ url('/posts') }}"> 投稿一覧</a>    
- </body>
-
-</html
+@section('main')
+<a href="{{ url('/posts') }}"> 投稿一覧</a>
+@endsection
